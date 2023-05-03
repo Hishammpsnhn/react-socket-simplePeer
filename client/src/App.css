@@ -63,6 +63,18 @@ body {
   border-radius: 6px;
   background: #263238;
   position: relative;
+
+}
+.chat-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.chat-header button{
+  color: whitesmoke;
+  font-size: medium;
+  background: #43a047;
   cursor: pointer;
 }
 .chat-window .chat-header p {
